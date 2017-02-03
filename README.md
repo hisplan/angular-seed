@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hisplan/angular-seed.svg?branch=master)](https://travis-ci.org/hisplan/angular-seed/)
+
 # `angular-seed` — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS][angularjs] v1.5.0 web app. You can use it
