@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 
-Now browse to the app at [`localhost:8000/index.html`][local-app-url].
+Now browse to the app at [`http://localhost:8000/index.html`](http://localhost:8000/index.html).
 
 
 ## Directory Layout
@@ -102,25 +102,3 @@ respectively.
 This really depends on how complex your app is and the overall infrastructure of your system, but
 the general rule is that all you need in production are the files under the `app/` directory.
 Everything else should be omitted.
-
-Angular apps are really just a bunch of static HTML, CSS and JavaScript files that need to be hosted
-somewhere they can be accessed by browsers.
-
-If your Angular app is talking to the backend server via XHR or other means, you need to figure out
-what is the best way to host the static files to comply with the same origin policy if applicable.
-Usually this is done by hosting the files by the backend server or through reverse-proxying the
-backend server(s) and web server(s).
-
-
-## Continuous Integration
-
-### Travis CI
-
-[Travis CI][travis] is a continuous integration service, which can monitor GitHub for new commits to
-your repository and execute scripts such as building the app or running tests. The `angular-seed`
-project contains a Travis configuration file, `.travis.yml`, which will cause Travis to run your
-tests when you push to GitHub.
-
-You will need to enable the integration between Travis and GitHub. See the
-[Travis website][travis-docs] for instructions on how to do this.
-
