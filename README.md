@@ -2,7 +2,7 @@
 
 # `angular-seed` — the seed for AngularJS apps
 
-This project is an application skeleton for a typical [AngularJS][angularjs] v1.5.0 web app. You can use it
+This project is an application skeleton for a typical AngularJS v1.5.0 web app. You can use it
 to quickly bootstrap your angular webapp projects and dev environment for these projects.
 
 ### Install Dependencies
@@ -55,8 +55,7 @@ e2e-tests/            --> end-to-end tests
 
 ### Running Unit Tests
 
-Karma will start
-watching the source and test files for changes and then re-run the tests whenever any of them
+Karma will start watching the source and test files for changes and then re-run the tests whenever any of them
 changes.
 
 ```
@@ -71,7 +70,7 @@ npm run test-single-run
 
 ### Running End-to-End Tests
 
-**Before starting Protractor, open a separate terminal window and run:**
+Before starting Protractor, open a separate terminal window and run:
 
 ```
 npm start
